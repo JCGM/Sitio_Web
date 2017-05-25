@@ -9,33 +9,51 @@
         <link rel="stylesheet" href="css/style.css" type="text/css">
  </head>
  	<header id="main-header">
-		
+
+   <script languague="javascript">
+        function mostrar() {
+            div = document.getElementById('flotante');
+            div.style.display = '';
+        }
+
+        function cerrar() {
+            div = document.getElementById('flotante');
+            div.style.display = 'none';
+        }
+</script>
+
 		<a id="logo-header" href="https://www.unad.edu.co/" target="_blank">
 			<img src="https://informacion.unad.edu.co/images/acerca%20de%20la%20unad/simbolos/logo_vertical.png" WIDTH=120 alt="logo" />
 		</a> 
  
 		<nav>
 			<ul class='nav'>
-				<li><a href="#que-es">¿Que es?</a></li>
-				<li><a >Inicio</a></li>
-				<li><a >Manuales</a>
+				<li><a href="#Inicio">¿Que es?</a></li>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="#">Manuales</a>
                  <ul>
-                 	<li><a >GIT y GITHUB</a></li>
+                 	<li><a href="#GIT">GIT Y GITHUB</a></li>
                  	<li><a href="#html">HTML5</a></li>
-                 	<li><a >CSS3</a></li>
-                 	<li><a >Submenu1</a></li>
+                 	<li><a href="#">CSS3</a></li>
                   </ul>
 				</li>
-				<li><a >Videos</a>
+				<li><a href="#">Videos</a>
 				<ul>
-                 	<li><a>Submenu1</a></li>
-                 	<li><a >Submenu1</a></li>
-                 	<li><a >Submenu1</a></li>
-                 	<li><a >Submenu1</a></li>
+                 	<li><a href="#">GIT Y GITHUB</a></li>
+                 	<li><a href="#">HTML5</a>
+                      <ul>
+                          <li><a href="#tutorial1">Estructura basica HTML5</a></li>
+                          <li><a href="#">Estructura basica pagina HTML</a></li>
+                          <li><a href="#">Navegacion Externa e Interna</a></li>
+                          <li><a href="#">Contenido HTML</a></li>
+                         <li><a href="#">Modelo de caja</a></li>
+                       </ul>
+                  </li>
+                 	<li><a href="#">CSS3</a></li>
                   </ul>
               </li>
-				<li><a >Preguntas Frecuentes</a></li>
-				<li><a >Buscar</a></li>
+				<li><a href="#">Preguntas Frecuentes</a></li>
+				<li><a href="#">Buscar</a></li>
 			</ul>
 		</nav>
  
@@ -58,38 +76,37 @@
   		     <img src="img/imagen4.jpg">
   	    </div>
   	</div>
-  	
-    <div class="contenido">
-      <section id="que-es">
-        <h1>Titulo</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis hendrerit sem, posuere commodo lorem. Suspendisse potenti. Curabitur ut metus ut nisi lacinia feugiat. Sed lorem enim, aliquam eget eros in, gravida congue eros. In volutpat tellus id massa semper porttitor. Vestibulum ut ultrices enim. Nulla facilisis ex ut metus convallis commodo. Praesent malesuada ex id lectus venenatis feugiat ullamcorper id est. Maecenas et pellentesque erat. Nulla viverra vitae libero vel dapibus.
+  	<div id="contenedor">
+    <div >
+      <section class="p" id="GIT" >
+       <br> <h1>GIT</h1>
+         <br>
+        <p id="leyenda_git" align="center" id="parrafo"><img  id="git" src="img/git.png" WIDTH="400" align="left"> Es un software de control de versiones diseñado por Linus Torvalds. La pregunta es ¿qué es control de versiones? Pues bien, se define como control de versiones a la gestión de los diversos cambios que se realizan sobre los elementos de algún producto o una configuración del mismo es decir a la gestión de los diversos cambios que se realizan sobre los elementos de algún producto o una configuración
+        </p><br>
+         <br><br>
+         <h1>GITHUB</h1>
+         <p id="leyenda_github" align="center">
+         <img id="github" src="img/github.png" WIDTH="400" height=10 align="left"> Es un servicio para alojamiento de repositorios de software gestionados por el sistema de control de versiones Git. Por tanto, Git es algo más general que nos sirve para controlar el estado de un desarrollo a lo largo del tiempo, mientras que Github es algo más particular: un sitio web que usa Git para ofrecer a la comunidad de desarrolladores repositorios de software.
+        </p><br> <br> <br>
+        </section>
+<br><br>
+      <section class="p" id="html">
+      <h1>HTML5</h1>
+        <p id="leyenda_html" align="center">
+        <img id="html1" src="img/html.png" WIDTH="350" height=10 align="left"><br>HTML5 es un lenguaje markup (de hecho, las siglas de HTML significan Hyper Text Markup Language) usado para estructurar y presentar el contenido para la web. Es uno de los aspectos fundamentales para el funcionamiento de los sitios, pero no es el primero. Es de hecho la quinta revisión del estándar que fue creado en 1990. A fines del año pasado, la W3C la recomendó para transformarse en el estándar a ser usado en el desarrollo de proyectos venideros. Por así decirlo, qué es HTML5 está relacionado también con la entrada en decadencia del viejo estándar HTML 4, que se combinaba con otros lenguajes para producir los sitios que podemos ver hoy en día. Con HTML5, tenemos otras posibilidades para explotar usando menos recursos. Con HTML5, también entra en desuso el formato XHTML, dado que ya no sería necesaria su implementación.</p><br>
+      </section><br><br>
+      <section class="p" id="tutorial1">
+      <h1>Estructura básica de HTML5</h1>
 
-        Suspendisse tincidunt sed augue non fringilla. Nunc leo urna, dignissim eu nulla nec, ultrices vulputate justo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse rhoncus leo orci. Nullam efficitur, nisi id accumsan tincidunt, eros massa tincidunt tortor, vel maximus turpis purus a arcu. Fusce mauris ipsum, egestas at pretium sed, mollis nec justo. Suspendisse congue neque consectetur nunc tristique cursus. Sed bibendum leo nec tempor auctor. Sed eget efficitur quam. Fusce cursus libero vestibulum, dictum erat quis, egestas tellus. Ut sit amet mauris sit amet diam interdum consequat in ut arcu.
-
-        Pellentesque nec est eu sapien tincidunt ultrices ut a nisl. Aliquam vestibulum eros at pulvinar fringilla. Donec tempor sollicitudin velit vitae lacinia. Ut lacinia blandit facilisis. Ut quis sodales odio. Phasellus blandit odio eget dolor suscipit dapibus. Ut eleifend convallis odio, eget commodo arcu. Integer a dictum purus, ac mollis urna.
-
-        Aliquam erat volutpat. Suspendisse dui neque, suscipit at pretium a, auctor et sapien. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam ultrices, turpis eu tempor viverra, erat eros convallis massa, et aliquam diam nibh at est. Curabitur id risus volutpat, mattis tellus vitae, rhoncus augue. Duis commodo eros vel erat finibus, at lobortis sem interdum. Proin ornare est non magna tristique, quis porta elit pulvinar. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc mollis nibh felis, sed sodales elit porta ac. Suspendisse ac nunc tortor. Etiam dignissim, lacus nec lobortis rutrum, ipsum leo tristique lorem, eu ultrices enim tellus sed sem. Pellentesque euismod orci felis, a tristique lectus vehicula et. Aliquam interdum, neque et commodo pharetra, urna erat ornare mauris, et eleifend libero neque a augue. Cras gravida finibus iaculis.
-
-        Donec neque eros, pretium sed suscipit nec, feugiat vel metus. Nulla vitae quam consectetur, pellentesque tellus ut, sollicitudin purus. In ut metus eget eros vehicula blandit at eu leo. Aliquam eleifend felis sit amet purus varius, non laoreet metus sodales. Vivamus vulputate fermentum sagittis. Nulla sodales nunc at enim suscipit aliquam. Phasellus risus sapien, efficitur vitae pellentesque a, laoreet at leo. Etiam vehicula hendrerit scelerisque. Nam venenatis velit id scelerisque pulvinar.</p>
+         <p> <iframe width="854" height="480" src="https://www.youtube.com/embed/PZoDLaOLcBM?ecver=1" frameborder="0" allowfullscreen></iframe></p>
       </section>
-
-      <section id="no-se">
-        <h1>No sé</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis hendrerit sem, posuere commodo lorem. Suspendisse potenti. Curabitur ut metus ut nisi lacinia feugiat. Sed lorem enim, aliquam eget eros in, gravida congue eros. In volutpat tellus id massa semper porttitor. Vestibulum ut ultrices enim. Nulla facilisis ex ut metus convallis commodo. Praesent malesuada ex id lectus venenatis feugiat ullamcorper id est. Maecenas et pellentesque erat. Nulla viverra vitae libero vel dapibus.
-
-          Suspendisse tincidunt sed augue non fringilla. Nunc leo urna, dignissim eu nulla nec, ultrices vulputate justo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse rhoncus leo orci. Nullam efficitur, nisi id accumsan tincidunt, eros massa tincidunt tortor, vel maximus turpis purus a arcu. Fusce mauris ipsum, egestas at pretium sed, mollis nec justo. Suspendisse congue neque consectetur nunc tristique cursus. Sed bibendum leo nec tempor auctor. Sed eget efficitur quam. Fusce cursus libero vestibulum, dictum erat quis, egestas tellus. Ut sit amet mauris sit amet diam interdum consequat in ut arcu.
-
-          Pellentesque nec est eu sapien tincidunt ultrices ut a nisl. Aliquam vestibulum eros at pulvinar fringilla. Donec tempor sollicitudin velit vitae lacinia. Ut lacinia blandit facilisis. Ut quis sodales odio. Phasellus blandit odio eget dolor suscipit dapibus. Ut eleifend convallis odio, eget commodo arcu. Integer a dictum purus, ac mollis urna.
-
-          Aliquam erat volutpat. Suspendisse dui neque, suscipit at pretium a, auctor et sapien. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam ultrices, turpis eu tempor viverra, erat eros convallis massa, et aliquam diam nibh at est. Curabitur id risus volutpat, mattis tellus vitae, rhoncus augue. Duis commodo eros vel erat finibus, at lobortis sem interdum. Proin ornare est non magna tristique, quis porta elit pulvinar. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc mollis nibh felis, sed sodales elit porta ac. Suspendisse ac nunc tortor. Etiam dignissim, lacus nec lobortis rutrum, ipsum leo tristique lorem, eu ultrices enim tellus sed sem. Pellentesque euismod orci felis, a tristique lectus vehicula et. Aliquam interdum, neque et commodo pharetra, urna erat ornare mauris, et eleifend libero neque a augue. Cras gravida finibus iaculis.
-
-          Donec neque eros, pretium sed suscipit nec, feugiat vel metus. Nulla vitae quam consectetur, pellentesque tellus ut, sollicitudin purus. In ut metus eget eros vehicula blandit at eu leo. Aliquam eleifend felis sit amet purus varius, non laoreet metus sodales. Vivamus vulputate fermentum sagittis. Nulla sodales nunc at enim suscipit aliquam. Phasellus risus sapien, efficitur vitae pellentesque a, laoreet at leo. Etiam vehicula hendrerit scelerisque. Nam venenatis velit id scelerisque pulvinar.
-        </p>
-      </section>
+   </div>
+    <div class="contenido" id="html_pdf">
+      <p><iframe class="pdf" src="https://maper08.github.io/ovi2-unad/guia1.pdf" type="application/x-google-chrome-pdf" style="width:1200px; height:1000px;" frameborder="0"></iframe></p>
     </div>
-    <div class="contenido" id="html">
-      <p><iframe class="pdf" src="https://maper08.github.io/ovi2-unad/guia1.pdf" type="application/x-google-chrome-pdf" style="width:1200px; height:1200px;" frameborder="0"></iframe></p>
     </div>
+    <footer id="main-footer">
+    <a>&copy; 2014 <a href="http://FranciscoAMK.com">FranciscoAMK.com</a>
+  </footer>
   </body>
 </html>

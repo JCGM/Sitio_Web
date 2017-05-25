@@ -4,9 +4,9 @@
 body {
 	margin: 0;
 	padding: 0;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: Verdana;
 	color: #666;
-	background: #f2f2f2; 
+	background: #005883; 
 	font-size: 1em;
 	line-height: 1.5em;
 	padding-top: 80px;
@@ -20,10 +20,11 @@ h1 {
 	font-weight: 300;
 }
  
-p {
+.p {
+	padding: 10px 20px;
 	margin: 1px;
-   border: blue 2px solid;
-   border-top-left-radius: 30px 30px;
+    border: 1px solid;
+    border-radius: 10px;
 }
  
 img {
@@ -31,26 +32,83 @@ img {
 	height: auto;
 }
 
-#main-header {
-	background: #333;
-	color: white;
-	height: 100px;
+#github {
+	margin-top: -160px;
+}
 
+#leyenda_github {
+	margin-top: 80px;
+}
+
+#git{
+	margin-top: -40px;
+}
+
+#leyenda_git {
+	margin-top: 60px;
+}
+
+#leyenda_html {
+	margin-top: 60px;
+}
+
+#html1{
+	margin-top: -95px;
+}
+#parrafo{
+
+	 float:left;
+     width:800px;
+     text-align: center;
+     padding: -20px -20px;
+	 margin: 1px;
+}
+#body{
+	background:#FFFFFF;
+}	
+
+/************ 
+//-------------------------------
+// CABECERA
+//-------------------------------
+************/
+#main-header {
+	background: #005883;
+	color: white;
+	height: auto;
 	width: 100%; 
 	left: 0; 
 	top: 0; 
 	position: fixed;
 	z-index: 99;
 }
-
-#body{
-	background:#434343
-}	
 /*letra*/
 #main-header a {
 		color: white;
 	}
- 
+/************
+//-----------------------------
+// PIE PÁGINA
+//-----------------------------
+************/
+#main-footer {
+	background: #005883;
+	color: white;
+	padding: 40px;
+	margin-top: 10px;
+	height: 50%;
+
+}
+#main-footer p {
+		margin: 0;
+	}
+	
+
+#main-footer a {
+		color: white;
+	}
+
+
 /*
  * Logo
  */
@@ -76,7 +134,14 @@ img {
 		font-size: 0.8em;
 		color: #999;
 	}
-	
+
+#main-content {
+	background: white;
+	width: 90%;
+	max-width: 800px;
+	margin: 20px auto;
+	box-shadow: 0 0 10px rgba(0,0,0,.1);
+}	
  
 /*
  * Navegación
@@ -93,7 +158,7 @@ nav ul {
 	}
 	
 .nav li a {
-				background-color:#333;
+				background-color:#005883;
 				color:#fff;
 				text-decoration:none;
 				padding:10px 40px;
@@ -118,10 +183,15 @@ nav ul li a {
 			
 
 nav ul li a:hover {
-					background: #434343;
+					background: #176398;
 				}
 
-/* menu desplegable*/
+/************
+//-----------------------------
+// MENU DESPLEGABLE
+//-----------------------------
+************/
+ 
 ul, ol {
 				list-style:none;
 			}
@@ -146,7 +216,13 @@ ul, ol {
 				position:relative;
 			}
 		
-/* slider */
+
+/************
+//-----------------------------
+// SLIDER
+//-----------------------------
+************/
+
 .slider{
 	display:block;
 	position:relative;
@@ -254,13 +330,19 @@ ul, ol {
 
 .contenido{ 
 	text-align: center;
-	padding:50px;
-	border: 2px;
+	padding:60px;
+	border: 1px;
 	}
+
 
 #pdf{
 	height: 100%;
     position: fixed;
     width: 500%;
-    z-index: 1;
+    z-index: 1
+}
+
+#contenedor {
+  width: 1200px;
+  text-align:center;
 }
