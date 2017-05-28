@@ -38,23 +38,47 @@ img {
 
 #leyenda_github {
 	margin-top: 80px;
+	text-align: center;
 }
-
+#clearFixGIT{
+ 
+	padding-top: 150px;
+}
+#clearFixhtml{
+ 
+	padding-top: 100px;
+}
 #git{
 	margin-top: -40px;
 }
 
 #leyenda_git {
 	margin-top: 60px;
-}
-
-#leyenda_html {
-	margin-top: 60px;
+	text-align: center;
 }
 
 #html1{
 	margin-top: -95px;
 }
+
+
+#leyenda_html {
+	margin-top: 60px;
+	text-align: center;
+}
+
+/*#css3{
+	margin-top: -125px;
+}*/
+p#leyenda_css3 img {
+    margin-top: -124px;
+}
+
+#leyenda_css3 {
+	margin-top: 70px;
+	text-align: center;
+}
+
 #parrafo{
 
 	 float:left;
@@ -75,7 +99,7 @@ img {
 #main-header {
 	background: #005883;
 	color: white;
-	height: auto;
+	height: 104px;
 	width: 100%; 
 	left: 0; 
 	top: 0; 
@@ -86,6 +110,39 @@ img {
 #main-header a {
 		color: white;
 	}
+
+.submenu {
+    margin-top: 14px;
+    margin-left: -33px;
+    width: 200px;
+}
+.submenu1 {
+    margin-top: 14px;
+    margin-left: -33px;
+    width: 200px;
+}
+.submenu-1 {
+    margin-left: 153px;
+    margin-top: -48px;
+    width: 270px;
+}
+.submenu-2 {
+    margin-left: 153px;
+    margin-top: -48px;
+    width: 200px;
+}
+
+ul.submenu1 li, ul.submenu li {
+    border: 2px solid rgba(204, 204, 204, 0.38);
+    height: 58px;
+    line-height: 52px;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+ul.submenu1 li a, ul.submenu li a {
+    font-size: 12px;
+    padding: 5px 0 4px 20px;
+}
 /************
 //-----------------------------
 // PIE PÁGINA
@@ -114,7 +171,7 @@ img {
  */
 #logo-header {
 	float: left;
-	padding: 5px 0 0 100px;
+	padding: 10px 0 0 50px;
 	text-decoration: none;
 }
 
@@ -147,7 +204,7 @@ img {
  * Navegación
  */
 nav {
-	float: right;
+	   float: right;
 }
 
 nav ul {
@@ -166,10 +223,9 @@ nav ul {
 			}
 			
 nav ul li {
-			display: inline-block;
 			line-height: 80px;
 			position: relative;
-		    top: -16px;
+		    top: -14px;
 		    left: 18px;
 		    margin:auto;
 		}
@@ -184,6 +240,7 @@ nav ul li a {
 
 nav ul li a:hover {
 					background: #176398;
+					border-bottom: 2px solid #f4af00;
 				}
 
 /************
@@ -335,14 +392,9 @@ ul, ol {
 	}
 
 
-#pdf{
-	height: 100%;
-    position: fixed;
-    width: 500%;
-    z-index: 1
-}
-
 #contenedor {
   width: 1200px;
+  margin: 0 auto;
   text-align:center;
 }
+
