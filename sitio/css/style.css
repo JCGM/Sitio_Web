@@ -38,6 +38,7 @@ img {
 
 #leyenda_github {
 	margin-top: 80px;
+	text-align: center;
 }
 
 #git{
@@ -46,15 +47,28 @@ img {
 
 #leyenda_git {
 	margin-top: 60px;
-}
-
-#leyenda_html {
-	margin-top: 60px;
+	text-align: center;
 }
 
 #html1{
 	margin-top: -95px;
 }
+
+
+#leyenda_html {
+	margin-top: 60px;
+	text-align: center;
+}
+
+#css3{
+	margin-top: -125px;
+}
+
+#leyenda_css3 {
+	margin-top: 70px;
+	text-align: center;
+}
+
 #parrafo{
 
 	 float:left;
