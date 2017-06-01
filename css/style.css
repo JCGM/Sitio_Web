@@ -1,0 +1,530 @@
+@charset "utf-8";
+
+/*CSS */
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Verdana;
+	color: #666;
+	background: #005883; 
+	font-size: 1em;
+	line-height: 1.5em;
+	padding-top: 80px;
+}
+ 
+h1 {
+	font-size: 2.3em;
+	line-height: 1.3em;
+	margin: 15px 0;
+	text-align: center;
+	font-weight: 300;
+}
+ 
+.p {
+	padding: 10px 20px;
+	margin: 1px;
+    border: 1px solid;
+    border-radius: 10px;
+    position: relative;
+    top: -95px;
+}
+ 
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+#github {
+	margin-top: -160px;
+}
+
+#leyenda_github {
+	margin-top: 80px;
+	text-align: center;
+}
+#clearFixGIT{
+ 
+	padding-top: 150px;
+}
+#clearFixhtml{
+ 
+	padding-top: 100px;
+}
+#git{
+	margin-top: -40px;
+}
+
+#leyenda_git {
+	margin-top: 60px;
+	text-align: center;
+}
+
+#html1{
+	margin-top: -95px;
+}
+
+
+#leyenda_html {
+	margin-top: 60px;
+	text-align: center;
+}
+
+/*#css3{
+	margin-top: -125px;
+}*/
+p#leyenda_css3 img {
+    margin-top: -124px;
+}
+
+#leyenda_css3 {
+	margin-top: 70px;
+	text-align: center;
+}
+
+#parrafo{
+
+	 float:left;
+     width:800px;
+     text-align: center;
+     padding: -20px -20px;
+	 margin: 1px;
+}
+#body{
+	background:#FFFFFF;
+}	
+
+/************ 
+//-------------------------------
+// CABECERA
+//-------------------------------
+************/
+#main-header {
+	background: #005883;
+	color: white;
+	height: 104px;
+	width: 100%; 
+	left: 0; 
+	top: 0; 
+	position: fixed;
+	z-index: 99;
+}
+/*letra*/
+#main-header a {
+		color: white;
+	}
+
+.submenu {
+    margin-top: 14px;
+    margin-left: -60px;
+    width: 200px;
+}
+.submenu1 {
+    margin-top: 14px;
+    margin-left: -85px;
+    width: 200px;
+}
+.submenu-1 {
+    margin-left: -288px;
+    margin-top: -48px;
+    width: 270px;
+}
+.submenu-2 {
+    margin-left: -217px;
+    margin-top: -48px;
+    width: 200px;
+}
+.submenu-3 {
+    margin-left: -217px;
+    margin-top: -48px;
+    width: 200px;
+}
+
+ul.submenu1 li, ul.submenu li {
+    border: 2px solid rgba(204, 204, 204, 0.38);
+    height: 58px;
+    line-height: 52px;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+ul.submenu1 li a, ul.submenu li a {
+    font-size: 12px;
+    padding: 5px 0 4px 20px;
+}
+/************
+//-----------------------------
+// PIE PÁGINA
+//-----------------------------
+************/
+#main-footer {
+	background: #005883;
+	color: white;
+	padding: 20px;
+	margin-top: 40px;
+}
+	#main-footer p {
+		margin: 0;
+	}
+	
+	#main-footer a {
+		color: white;
+	}
+
+
+
+/*
+ * Logo
+ */
+#logo-header {
+	float: left;
+	padding: 10px 0 0 50px;
+	text-decoration: none;
+}
+
+#logo-header:hover {
+		color: #0b76a6;
+	}
+	
+#logo-header .site-name {
+		display: block;
+		font-weight: 700;
+		font-size: 1.2em;
+	}
+	
+#logo-header .site-desc {
+		display: block;
+		font-weight: 300;
+		font-size: 0.8em;
+		color: #999;
+	}
+
+#main-content {
+	background: white;
+	width: 90%;
+	max-width: 800px;
+	margin: 20px auto;
+	box-shadow: 0 0 10px rgba(0,0,0,.1);
+}	
+ 
+/*
+ * Navegación
+ */
+nav {
+	   float: right;
+}
+
+nav ul {
+		margin-right:-20;
+		padding: 0;
+		list-style: none;
+		padding-right: 20px;
+	}
+	
+.nav li a {
+				background-color:#005883;
+				color:#fff;
+				text-decoration:none;
+				padding:10px 40px;
+				display:block;
+			}
+			
+nav ul li {
+			line-height: 80px;
+			position: relative;
+		    top: -14px;
+		    left: 18px;
+		    margin:auto;
+		}
+			
+
+nav ul li a {
+				display: block;
+				padding: 0 10px;
+				text-decoration: none;
+			}
+			
+
+nav ul li a:hover {
+					background: #176398;
+					border-bottom: 2px solid #f4af00;
+				}
+
+/************
+//-----------------------------
+// MENU DESPLEGABLE
+//-----------------------------
+************/
+ 
+ul, ol {
+				list-style:none;
+			}
+			
+.nav > li {
+				float:left;
+				position:block;
+			}
+			
+.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:100px;
+
+			}
+			
+.nav li:hover > ul {
+				display:block;
+			}
+			
+.nav li ul li {
+				position:relative;
+			}
+		
+
+/************
+//-----------------------------
+// SLIDER
+//-----------------------------
+************/
+
+.slider{
+	display:block;
+	position:relative;
+	margin:auto;
+/*	width:100%;*/
+	max-width:auto;
+	max-height:562px;
+	overflow:hidden;
+	margin-top: 20px;	
+}
+
+.boton{
+	position:absolute;
+	display:block;
+	bottom:30px;
+	margin:0;
+	padding:0;
+	z-index:999;
+	cursor:pointer;
+	opacity:0;
+}
+
+.boton:nth-child(1){
+	left:30px;
+}
+.boton:nth-child(3){
+	left:60px;
+}
+.boton:nth-child(5){
+	left:90px;
+}
+.boton:nth-child(7){
+	left:120px;
+}
+
+.slider label{
+	position:absolute;
+	bottom:30px;
+	width:12px;
+	height:12px;
+	background: rgba (50,50,50,.5);
+	border-radius:7px;
+	z-index:100;
+	border: 1px solid #777;
+}
+
+.slider label:nth-child(2){
+	left:30px;
+}
+.slider label:nth-child(4){
+	left:60px;
+}
+.slider label:nth-child(6){
+	left:90px;
+}
+.slider label:nth-child(8){
+	left:120px;
+}
+
+.boton:checked + label{
+	background: rgba (0,0,0,.6);
+	border-color: #eee;
+}
+
+.contenedor-img img {
+	display: block;
+	float: left;
+	z-index: 0;
+}
+
+
+.cuatro-imagenes {
+	width: 400%;
+}
+
+.cuatro-imagenes img {
+	width: 25%;
+}
+
+.contenedor-img {
+	position: relative;
+	left: 0;
+	-ms-transition: left .3s ease-in;
+	-moz-transition: left .3s ease-in;
+	-o-transition: left .3s ease-in;
+	transition: left .3s ease-in;
+
+}
+
+.boton:nth-child(1):checked ~ .contenedor-img {
+	left: 0;
+}
+
+.boton:nth-child(3):checked ~ .contenedor-img {
+	left: -100%;
+}
+
+.boton:nth-child(5):checked ~ .contenedor-img {
+	left: -200%;
+}
+
+.boton:nth-child(7):checked ~ .contenedor-img {
+	left: -300%;
+}
+
+.contenido{ 
+	text-align: center;
+	padding:60px;
+	border: 1px;
+	}
+
+
+#contenedor {
+  width: 1200px;
+  margin: 0 auto;
+  text-align:center;
+}
+
+
+input[type="search"]{
+	border-width: 0px;
+    border-style: #176398;
+    border-color: #176398;
+    width: 45px; /*ancho por defecto*/
+    background: #005883 url('search-icon.png')no-repeat 9px center; /*icono lupa*/
+    padding: 42px 57px;
+   /* border-radius: 15em;*/
+    -webkit-transition: all .5s; /* transición de .5seg a todos los elementos para chrome*/
+    -moz-transition: all .5s; /* transición de .5seg a todos los elementos para mozilla*/
+    -o-transition: all .5s; /* transición de .5seg a todos los elementos para ophera*/
+    transition: all .5s; /* transición de .5seg a todos los elementos*/
+    outline: none; /* ocultar el fucos automático de los input */
+}
+input[type="search"]:focus{
+    width: 250px; /*tamaño del boton buscar al hacer click*/
+    padding-left: 32px; /*espacio entre el icono lupa y el placeholder*/
+    font-family: Verdana;
+	color: #1E1915;
+    background-color: #fff;
+}
+
+input:hover
+{
+	background: #176398;
+		border-bottom: 2px solid #f4af00;
+}
+
+.n{
+   width: 36%;
+    /* float: left; */
+    font-size: 16px;
+    text-align: left;
+    line-height: 14px;
+    position: relative;
+    left: 194px;
+    top: -65px;
+    margin: -27px;
+}
+.botones {
+    position: relative;
+    left: -11px;
+    top: -24px;
+}
+
+.cont {
+    float: right;
+    position: relative;
+   top: -21px;
+    left: -40px;
+    padding: 8px 16px;
+    margin: -30px;
+    border: 1px solid;
+    border-radius: 43px;
+    text-align: center;
+}
+
+.im {
+    height: 92px;
+    width: 145px;
+    position: relative;
+    top: -3px;
+    left: -31px;
+}
+.img {
+    height: 92px;
+    width: 145px;
+    position: relative;
+    top: -9px;
+    left: -1px;
+}
+
+.fa {
+    position: relative;
+    left: 140px;
+    top: -115px;
+}
+
+.tw {
+    position: relative;
+    left: 142px;
+    top: -115px;
+}
+.yu {
+    position: relative;
+    left: 145px;
+    top: -115px;
+}
+
+.na {
+    position: relative;
+    float: right;
+    top: -104px;
+    left: 6px;
+}
+
+._fa {
+    float: right;
+    position: relative;
+    top: -95px;
+    left: -6px;
+}
+
+#que {
+    position: relative;
+    top: -144px;
+    left: -16px;
+}
+
+.footer_ {
+    position: absolute;
+    top: 63px;
+}
+
+
+#headerContent {
+  color: rgb(255, 139, 23);
+    text-shadow: 6px 5px 1px #191919;
+    text-align: right;
+    position: relative;
+    top: -408px;
+    left: -31px;
+    font-size: 35px;
+}
