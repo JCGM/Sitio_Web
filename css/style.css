@@ -25,6 +25,8 @@ h1 {
 	margin: 1px;
     border: 1px solid;
     border-radius: 10px;
+    position: relative;
+    top: -95px;
 }
  
 img {
@@ -113,12 +115,12 @@ p#leyenda_css3 img {
 
 .submenu {
     margin-top: 14px;
-    margin-left: -33px;
+    margin-left: -60px;
     width: 200px;
 }
 .submenu1 {
     margin-top: 14px;
-    margin-left: -33px;
+    margin-left: -85px;
     width: 200px;
 }
 .submenu-1 {
@@ -127,6 +129,11 @@ p#leyenda_css3 img {
     width: 270px;
 }
 .submenu-2 {
+    margin-left: -217px;
+    margin-top: -48px;
+    width: 200px;
+}
+.submenu-3 {
     margin-left: -217px;
     margin-top: -48px;
     width: 200px;
@@ -151,19 +158,17 @@ ul.submenu1 li a, ul.submenu li a {
 #main-footer {
 	background: #005883;
 	color: white;
-	padding: 40px;
-	margin-top: 10px;
-	height: 50%;
-
+	padding: 20px;
+	margin-top: 40px;
 }
-#main-footer p {
+	#main-footer p {
 		margin: 0;
 	}
 	
-
-#main-footer a {
+	#main-footer a {
 		color: white;
 	}
+
 
 
 /*
@@ -425,4 +430,101 @@ input:hover
 {
 	background: #176398;
 		border-bottom: 2px solid #f4af00;
+}
+
+.n{
+   width: 36%;
+    /* float: left; */
+    font-size: 16px;
+    text-align: left;
+    line-height: 14px;
+    position: relative;
+    left: 194px;
+    top: -65px;
+    margin: -27px;
+}
+.botones {
+    position: relative;
+    left: -11px;
+    top: -24px;
+}
+
+.cont {
+    float: right;
+    position: relative;
+   top: -21px;
+    left: -40px;
+    padding: 8px 16px;
+    margin: -30px;
+    border: 1px solid;
+    border-radius: 43px;
+    text-align: center;
+}
+
+.im {
+    height: 92px;
+    width: 145px;
+    position: relative;
+    top: -3px;
+    left: -31px;
+}
+.img {
+    height: 92px;
+    width: 145px;
+    position: relative;
+    top: -9px;
+    left: -1px;
+}
+
+.fa {
+    position: relative;
+    left: 140px;
+    top: -115px;
+}
+
+.tw {
+    position: relative;
+    left: 142px;
+    top: -115px;
+}
+.yu {
+    position: relative;
+    left: 145px;
+    top: -115px;
+}
+
+.na {
+    position: relative;
+    float: right;
+    top: -104px;
+    left: 6px;
+}
+
+._fa {
+    float: right;
+    position: relative;
+    top: -95px;
+    left: -6px;
+}
+
+#que {
+    position: relative;
+    top: -144px;
+    left: -16px;
+}
+
+.footer_ {
+    position: absolute;
+    top: 63px;
+}
+
+
+#headerContent {
+  color: rgb(255, 139, 23);
+    text-shadow: 6px 5px 1px #191919;
+    text-align: right;
+    position: relative;
+    top: -408px;
+    left: -31px;
+    font-size: 35px;
 }
